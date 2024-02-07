@@ -1,0 +1,18 @@
+.custom-navbar {
+    height: 100px; /* Adjust the height as needed */
+    background-color: #56a3f0; /* Navbar background color */
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-size: 2rem; /* Adjust the font size of the brand */
+  }
+  
+  .custom-navbar .nav-link {
+    color: white; /* Text color for links */
+    font-size: 1.2rem; /* Adjust the font size of the links */
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #17a2b8; /* Text color for links on hover */
+  }
+  

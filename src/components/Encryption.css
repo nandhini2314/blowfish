@@ -1,0 +1,44 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+@keyframes colorChange {
+  0% {
+    background-color: rgb(14, 14, 246);
+  }
+  25% {
+    background-color: rgb(118, 110, 211);
+  }
+  50% {
+    background-color: rgb(88, 237, 232);
+  }
+  75% {
+    background-color: rgb(147, 210, 240);
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
+.encryption-container {
+  animation: colorChange 5s infinite;
+  padding: 65px;
+  font-family: 'Times New Roman', Serif fonts;
+  min-height: 100vh;
+}
+.blue-button {
+  background-color: rgb(41, 41, 237); /* Pink color */
+  border-color: #3dbbe5; /* Pink color */
+  color: white; /* Text color */
+  height: 60px;
+  width: 125px;
+  font-size: 25px;
+}
+
+.blue-button:hover {
+  background-color: #ad1457; /* Darker pink color on hover */
+  border-color: #ad1457; /* Darker pink color on hover */
+}

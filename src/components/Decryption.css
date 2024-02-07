@@ -1,0 +1,36 @@
+.pink-button {
+    background-color: #e91e63; /* Pink color */
+    border-color: #e91e63; /* Pink color */
+    color: white; /* Text color */
+    height: 60px;
+    width: 125px;
+    font-size: 25px;
+  }
+  
+  .pink-button:hover {
+    background-color: #ad1457; /* Darker pink color on hover */
+    border-color: #ad1457; /* Darker pink color on hover */
+  }
+  @keyframes colrChange {
+    0% {
+      background-color: pink;
+    }
+    25% {
+      background-color: rgb(222, 85, 220);
+    }
+    50% {
+      background-color: rgb(220, 87, 25);
+      
+    }
+    75% {
+      background-color: rgb(118, 47, 110);
+        
+      }
+    100% {
+        background-color: pink;
+      }
+  }
+  
+  .decryption-container {
+    animation: colrChange 5s infinite;
+  }
