@@ -20,8 +20,9 @@ function Home() {
         <ListGroup.Item style={{ backgroundColor: 'lightblue', color: 'black',fontSize:'35px',fontWeight:'bold' }}>Nandhini Ramesh - 16010121157</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href="#" style={{ color: 'red',fontSize:'35px' }}> Github Link</Card.Link>
-       
+        <Card.Link href="https://github.com/nandhini2314/blowfish" style={{ color: 'red',fontSize:'35px' }}> Github Link - Frontend</Card.Link>
+        <Card.Link href="https://github.com/tejaspundlik/BlowFish-Backend" style={{ color: 'red',fontSize:'35px' }}> Github Link - Backend</Card.Link>
+        <Card.Link href="https://github.com/nandhini2314/Blowfish-tool/" style={{ color: 'red',fontSize:'35px' }}> Github Link - Codes</Card.Link>
       </Card.Body>
     </Card>
     </div>
