@@ -8,7 +8,7 @@ function Home() {
     <Card style={{fontFamily:'Times New Roman,Serif Fonts ',backgroundColor:'black' ,padding:'20px',width: '110rem',height:'50rem', alignContent:'center'}}>
       <Card.Body>
         
-        <Card.Title style={{fontFamily:'Times New Roman,Serif Fonts ',fontSize:'50px',color: 'white',fontWeight:'bold' }}>Information Security IA-2</Card.Title>
+        <Card.Title style={{fontFamily:'Times New Roman,Serif Fonts ',fontSize:'50px',color: 'white',fontWeight:'bold' }}>Information Security IA-1</Card.Title>
         <Card.Text style={{fontSize:'30px',color:'white'}} >
           We have implemented the Blowfish algorithm to encrypt plaintext and decrypt encrypted texts.
         </Card.Text>
